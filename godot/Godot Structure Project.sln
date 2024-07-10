@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Godot Structure Project", "Godot Structure Project.csproj", "{7786F3E5-177C-4DCE-ADC5-63C66651FD43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Project", "..\Core.Project\Core.Project.csproj", "{AABF1AB3-B464-4A76-ABCF-191F55DF5A2E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		ExportDebug|Any CPU = ExportDebug|Any CPU
+		ExportRelease|Any CPU = ExportRelease|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7786F3E5-177C-4DCE-ADC5-63C66651FD43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7786F3E5-177C-4DCE-ADC5-63C66651FD43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7786F3E5-177C-4DCE-ADC5-63C66651FD43}.ExportDebug|Any CPU.ActiveCfg = ExportDebug|Any CPU
+		{7786F3E5-177C-4DCE-ADC5-63C66651FD43}.ExportDebug|Any CPU.Build.0 = ExportDebug|Any CPU
+		{7786F3E5-177C-4DCE-ADC5-63C66651FD43}.ExportRelease|Any CPU.ActiveCfg = ExportRelease|Any CPU
+		{7786F3E5-177C-4DCE-ADC5-63C66651FD43}.ExportRelease|Any CPU.Build.0 = ExportRelease|Any CPU
+		{7786F3E5-177C-4DCE-ADC5-63C66651FD43}.Release|Any CPU.ActiveCfg = ExportRelease|Any CPU
+		{7786F3E5-177C-4DCE-ADC5-63C66651FD43}.Release|Any CPU.Build.0 = ExportRelease|Any CPU
+		{AABF1AB3-B464-4A76-ABCF-191F55DF5A2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AABF1AB3-B464-4A76-ABCF-191F55DF5A2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AABF1AB3-B464-4A76-ABCF-191F55DF5A2E}.ExportDebug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AABF1AB3-B464-4A76-ABCF-191F55DF5A2E}.ExportDebug|Any CPU.Build.0 = Debug|Any CPU
+		{AABF1AB3-B464-4A76-ABCF-191F55DF5A2E}.ExportRelease|Any CPU.ActiveCfg = Release|Any CPU
+		{AABF1AB3-B464-4A76-ABCF-191F55DF5A2E}.ExportRelease|Any CPU.Build.0 = Release|Any CPU
+		{AABF1AB3-B464-4A76-ABCF-191F55DF5A2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AABF1AB3-B464-4A76-ABCF-191F55DF5A2E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F3C3B0C2-D1B9-4CCB-BFF5-E83E03FE43AB}
+	EndGlobalSection
+EndGlobal

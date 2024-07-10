@@ -1,0 +1,36 @@
+[gd_scene load_steps=2 format=3 uid="uid://cei7bqhfv1l2v"]
+
+[ext_resource type="Script" path="res://Control.cs" id="1_hc2e5"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_hc2e5")
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+text = "In Godot it is easy to split your projects however you want when using dotnet.
+Having Core package or even splitting your codebase further is completely reasonable.
+
+A code structure that can benefit many simulation/management heavy games is to have the UI part in GDScript, 
+and the more complex stuff in C#. 
+
+That's how my game, Master of Chess, works."
+
+[node name="ResultLabel" type="Label" parent="."]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -40.0
+offset_bottom = 23.0
+grow_horizontal = 0
+theme_override_font_sizes/font_size = 64
+text = "123"
